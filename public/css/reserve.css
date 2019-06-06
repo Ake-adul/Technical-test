@@ -1,0 +1,85 @@
+.reserve p{
+	margin-bottom: 10px
+}
+
+.bp_sidebar_content_block {
+	border: 1px solid #cce1ff;
+	border-radius: 3px;
+	margin: 0 0 15px;
+	padding: 0px 0px 10px 10px;
+	overflow: hidden;
+}
+
+.bp_sidebar_content_block__header {
+	background-color: #e9f0fa;
+	border-bottom: 1px solid #cce1ff;
+	margin: 0px -10px 8px;
+	padding: 5px 0px 5px;
+	font-weight: bold;
+}
+._2E633, .xTT_j {
+    display: inline-block;
+    -webkit-transition: opacity .3s ease,-webkit-transform .3s ease;
+    transition: opacity .3s ease,-webkit-transform .3s ease;
+    transition: opacity .3s ease,transform .3s ease;
+    transition: opacity .3s ease,transform .3s ease,-webkit-transform .3s ease;
+}
+._2E633, .xTT_j {
+    vertical-align: middle;
+}
+._2E633 {
+    background: #fff;
+    border: 1px solid #b4b4b4;
+    -webkit-box-shadow: inset 0 2px 1px 0 rgba(27,27,27,.05);
+    box-shadow: inset 0 2px 1px 0 rgba(27,27,27,.05);
+    border-radius: 2px;
+    height: 16px;
+    margin: auto 8px auto 0;
+    position: relative;
+    width: 16px;
+}
+._1uJkS[type=checkbox]:checked+div>._2E633 {
+    border-color: #0770cd;
+}
+._2E633, .xTT_j {
+    display: inline-block;
+    -webkit-transition: opacity .3s ease,-webkit-transform .3s ease;
+    transition: opacity .3s ease,-webkit-transform .3s ease;
+    transition: opacity .3s ease,transform .3s ease;
+    transition: opacity .3s ease,transform .3s ease,-webkit-transform .3s ease;
+}
+._2E633, .xTT_j {
+    vertical-align: middle;
+}
+._2E633 {
+    background: #fff;
+    border: 1px solid #b4b4b4;
+    -webkit-box-shadow: inset 0 2px 1px 0 rgba(27,27,27,.05);
+    box-shadow: inset 0 2px 1px 0 rgba(27,27,27,.05);
+    border-radius: 2px;
+    height: 16px;
+    margin: auto 8px auto 0;
+    position: relative;
+    width: 16px;
+}
+._1iwut>._1uJkS[type=checkbox] {
+    display: none;
+}
+
+
+/*รูปภาพ*/
+.bp_hotel_photo .bp_small_gallery_main_img {
+    width: 200px;
+    vertical-align: top;
+}
+.bp_small_gallery_main_img {
+    position: relative;
+    vertical-align: top;
+    z-index: 0;
+}
+.bp_unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

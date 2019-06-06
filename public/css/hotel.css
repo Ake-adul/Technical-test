@@ -1,0 +1,117 @@
+.title-tool {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+/*/เส้นหน้า hotel /*/
+.line-hotel{
+  border: solid 1px #2196f3;
+  margin: 20px 0 20px;
+}
+
+.line-hotel2{
+  border: solid 1px #2196f3;
+  margin: 20px 0 20px;
+}
+
+.tab {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+}
+.tabs {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+.tabs li {
+  float: left;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+@media (min-width:768px) {
+  .tabs a {
+    background-color: #eff0f2;
+    border-bottom: 1px solid #fff;
+    color: #888;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0 51px;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 2px solid #2196f3;
+  }
+@media (min-width:992px) {
+  .tabs a {
+    background-color: #eff0f2;
+    border-bottom: 1px solid #fff;
+    color: #888;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0 35px;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 2px solid #2196f3;
+  }
+
+
+}
+@media (min-width:1200px) {
+  .tabs a {
+    background-color: #eff0f2;
+    border-bottom: 1px solid #fff;
+    color: #888;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0 57px;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 2px solid #2196f3;
+  }
+}
+
+.tabs_item {
+  display: none;
+  padding: 30px 0;
+}
+.tabs_item h4 {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+.tabs_item img {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.tabs_item:first-child {
+  display: block;
+}
+.current a {
+  color: #fff;
+  background: #2196f3;
+}

@@ -1,0 +1,369 @@
+span.msg,
+span.choose {
+  color: #555;
+  padding: 5px 0 10px;
+  display: inherit
+}
+
+
+/*Styling Selectbox*/
+.z .dropdown {
+  width: 300px;
+  display: inline-block;
+  background-color: #fff;
+  /*border-radius: 5px;*/
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all .5s ease;
+  position: relative;
+  font-size: 14px;
+  color: #474747;
+  height: 100%;
+  text-align: left
+}
+.z .dropdown .select {
+  cursor: pointer;
+  display: block;
+  padding: 16px;
+  background-color: #ffffffd9;
+  /*border-style: inset;*/
+}
+.z .dropdown .select > i {
+  font-size: 13px;
+  color: #888;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  float: right;
+  line-height: 20px
+}
+.z .dropdown:hover {
+  box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+.z .dropdown:active {
+  background-color: #f8f8f8
+}
+.z .dropdown.active:hover,
+.dropdown.active  {
+  box-shadow: 0 0 4px rgb(204, 204, 204);
+  /*border-radius: 5px 5px 0 0;*/
+  background-color: #f8f8f8
+}
+.z .dropdown.active .select > i {
+  transform: rotate(-90deg)
+}
+.z .dropdown .dropdown-menu {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  margin-top: 1px;
+  box-shadow: 0 1px 2px rgb(204, 204, 204);
+  border-radius: 0 1px 5px 5px;
+  overflow: hidden;
+  display: none;
+  max-height: 144px;
+  overflow-y: auto;
+  z-index: 9
+}
+.z .dropdown .dropdown-menu li {
+  padding: 10px;
+  transition: all .2s ease-in-out;
+  cursor: pointer
+} 
+.z .dropdown .dropdown-menu {
+  padding: 0;
+  list-style: none
+}
+.z .dropdown .dropdown-menu li:hover {
+  background-color: #f2f2f2
+}
+.z .dropdown .dropdown-menu li:active {
+  background-color: #e2e2e2
+}
+/*----------------*/
+/*----------------------------*/
+
+.z2 .dropdown {
+  width: 300px;
+  display: inline-block;
+  background-color: #fff;
+  /*border-radius: 5px;*/
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all .5s ease;
+  position: relative;
+  font-size: 14px;
+  color: #474747;
+  height: 100%;
+  text-align: left
+}
+.z2 .dropdown .select {
+  cursor: pointer;
+  display: block;
+  padding: 16px;
+  background-color: #ffffffd9;
+  /*border-style: inset;*/
+}
+.z2 .dropdown .select > i {
+  font-size: 13px;
+  color: #888;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  float: right;
+  line-height: 20px
+}
+.z2 .dropdown:hover {
+  box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+.z2 .dropdown:active {
+  background-color: #f8f8f8
+}
+.z2 .dropdown.active:hover,
+.dropdown.active  {
+  box-shadow: 0 0 4px rgb(204, 204, 204);
+  /*border-radius: 5px 5px 0 0;*/
+  background-color: #f8f8f8
+}
+.z2 .dropdown.active .select > i {
+  transform: rotate(-90deg)
+}
+.z2 .dropdown .dropdown-menu {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  margin-top: 1px;
+  box-shadow: 0 1px 2px rgb(204, 204, 204);
+  border-radius: 0 1px 5px 5px;
+  overflow: hidden;
+  display: none;
+  max-height: 144px;
+  overflow-y: auto;
+  z2-index: 9
+}
+.z2 .dropdown .dropdown-menu li {
+  padding: 10px;
+  transition: all .2s ease-in-out;
+  cursor: pointer
+} 
+.z2 .dropdown .dropdown-menu {
+  padding: 0;
+  list-style: none
+}
+.z2 .dropdown .dropdown-menu li:hover {
+  background-color: #f2f2f2
+}
+.z2 .dropdown .dropdown-menu li:active {
+  background-color: #e2e2e2
+}
+
+
+
+
+@media (min-width:240px) and (max-width:768px) {
+
+  .z2 .dropdown {
+    width: 105%;
+
+    display: inline-block;
+    background-color: #fff;
+    /*border-radius: 5px;*/
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    height: 100%;
+    text-align: left
+  }
+  .z2 .dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 16px;
+    background-color: #ffffffd9;
+    /*border-style: inset;*/
+  }
+  .z2 .dropdown .select > i {
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
+  }
+  .z2 .dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+  }
+  .z2 .dropdown:active {
+    background-color: #f8f8f8
+  }
+  .z2 .dropdown.active:hover,
+  .dropdown.active  {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    /*border-radius: 5px 5px 0 0;*/
+    background-color: #f8f8f8
+  }
+  .z2 .dropdown.active .select > i {
+    transform: rotate(-90deg)
+  }
+  .z2 .dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 5px 5px;
+    overflow: hidden;
+    display: none;
+    max-height: 144px;
+    overflow-y: auto;
+    z2-index: 9
+  }
+  .z2 .dropdown .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+  } 
+  .z2 .dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+  }
+  .z2 .dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2
+  }
+  .z2 .dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
+  }
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  .z2 .dropdown {
+    width: 110%;
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #fff;
+    /*border-radius: 5px;*/
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    height: 100%;
+    text-align: left
+  }
+}
+
+@media (min-width:992px) {
+  .z2 .dropdown {
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    /*border-radius: 5px;*/
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    height: 100%;
+    text-align: left
+  }
+}
+
+@media (min-width:1200px) {
+ .z2 .dropdown {
+  width: 100%;
+  display: inline-block;
+  background-color: #fff;
+  /*border-radius: 5px;*/
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all .5s ease;
+  position: relative;
+  font-size: 14px;
+  color: #474747;
+  height: 100%;
+  text-align: left
+}
+.z2 .dropdown .select {
+  cursor: pointer;
+  display: block;
+  padding: 16px;
+  background-color: #ffffffd9;
+  /*border-style: inset;*/
+}
+.z2 .dropdown .select > i {
+  font-size: 13px;
+  color: #888;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  float: right;
+  line-height: 20px
+}
+.z2 .dropdown:hover {
+  box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+.z2 .dropdown:active {
+  background-color: #f8f8f8
+}
+.z2 .dropdown.active:hover,
+.dropdown.active  {
+  box-shadow: 0 0 4px rgb(204, 204, 204);
+  /*border-radius: 5px 5px 0 0;*/
+  background-color: #f8f8f8
+}
+.z2 .dropdown.active .select > i {
+  transform: rotate(-90deg)
+}
+.z2 .dropdown .dropdown-menu {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  margin-top: 1px;
+  box-shadow: 0 1px 2px rgb(204, 204, 204);
+  border-radius: 0 1px 5px 5px;
+  overflow: hidden;
+  display: none;
+  max-height: 144px;
+  overflow-y: auto;
+  z2-index: 9
+}
+.z2 .dropdown .dropdown-menu li {
+  padding: 10px;
+  transition: all .2s ease-in-out;
+  cursor: pointer
+} 
+.z2 .dropdown .dropdown-menu {
+  padding: 0;
+  list-style: none
+}
+.z2 .dropdown .dropdown-menu li:hover {
+  background-color: #f2f2f2
+}
+.z2 .dropdown .dropdown-menu li:active {
+  background-color: #e2e2e2
+}
+
+}
+.n1{
+  color: red;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 18%;
+}
+.n2{
+  text-align: center;
+  /*padding-top: 50px;*/
+}
+.line-c{
+  text-decoration-line: line-through; 
+}
+.MITExd {
+  font-size: .75rem;
+  color: #fff;
+  text-transform: uppercase;
+  background: #ee4d2d;
+  border-radius: 2px;
+  padding: 2px 4px;
+  font-weight: 600;
+  line-height: 1;
+}

@@ -1,0 +1,89 @@
+/* Hide base elements */
+[type="radio"],
+[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+/* Position the <label> */
+[type="radio"] + label,
+[type="checkbox"] + label {
+  position: relative;
+  display: inline-block;
+  height: 17px;
+  line-height: 17px;
+  padding-left: 18px;
+  cursor: pointer;
+}
+
+/* SHARED STYLES - Radio & Checkbox - Unchecked */
+[type="radio"] + label:before,
+[type="checkbox"] + label:before {
+  content: '';
+  position: absolute;
+  left: 0; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px; 
+  height: 18px;
+  border: 2px solid #1abb9c;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+
+/* RADIO - Unchecked */
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  border-radius: 50%;
+}
+
+/* RADIO - Checked */
+[type="radio"]:checked + label:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  transform: translateY(-50%);
+  left: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1abb9c;
+}
+
+
+/* CHECKBOX - Unchecked */
+[type="checkbox"]:not(:checked) + label:before {
+ 
+}
+
+/* CHECKBOX - Checked ( CSS Tick ) */
+[type="checkbox"]:checked + label:after {
+ position: absolute;
+ content: "";
+ left: 6px;
+ top: 2px;
+ -webkit-transform: rotate(45deg);
+ transform: rotate(45deg); 
+
+ width: 6px;
+ border-bottom: 3px solid #1abb9c;
+
+ height: 12px;
+ border-right: 3px solid #1abb9c;
+}
+
+
+/* SHARED STYLES - Radio & Checkbox - Disabled */
+[type="radio"]:disabled + label:before,
+[type="checkbox"]:disabled + label:before {
+  border-color: #bbb;
+  background-color: #ddd;
+}
+
+[type="radio"]:disabled + label,
+[type="checkbox"]:disabled + label { 
+  color: #999; 
+}
+
+ 
